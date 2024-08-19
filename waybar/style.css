@@ -1,0 +1,81 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold;
+  font-size: 16px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(21, 18, 27, 0);
+  color: #cdd6f4;
+  padding: 0px;
+  margin: 0px;
+}
+
+#window,
+#cpu,
+#disk,
+#memory,
+#clock,
+#pulseaudio,
+#temperature,
+#workspaces,
+#weather {
+  opacity: 0.8;
+  padding: 4px 4px;
+  margin: 0px 2px;
+  border: 0px;
+}
+
+#cpu,
+#temperature {
+  border-radius: 10px 0px 0px 10px;
+}
+
+#workspaces,
+#disk {
+  border-radius: 0px 10px 10px 0px;
+  margin-right: 4px;
+}
+
+#temperature.critical {
+  color: #e92d4d;
+}
+
+#workspaces {
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
+#window {
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#pulseaudio {
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#clock {
+  color: #ffffff;
+}
+
+#memory {
+  color: #ffffff;
+}
+
+#cpu {
+  color: #ffffff;
+}
+
+#temperature {
+  color: #ffffff;
+}
+
+#disk {
+  color: #ffffff;
+}

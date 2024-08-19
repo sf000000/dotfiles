@@ -1,0 +1,30 @@
+{
+  "editor.mouseWheelZoom": true,
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "breadcrumbs.enabled": false,
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.renderWhitespace": "all",
+  "workbench.tree.renderIndentGuides": "always",
+  "editor.fontSize": 16,
+  "window.zoomLevel": 1.5,
+  "editor.lineHeight": 19,
+  "window.menuBarVisibility": "hidden",
+  "workbench.activityBar.location": "bottom",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "ruff.nativeServer": "on",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportInvalidTypeForm": "none"
+  },
+  "editor.stickyScroll.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "workbench.iconTheme": "sharp-icons",
+  "workbench.colorTheme": "Kanagawa",
+  "explorer.confirmDelete": false
+}
